@@ -70,6 +70,7 @@
                             <li><a href="screenshots" data-nav-section="screenshots"><span>Screenshots</span></a></li>
                             <li><a href="tour" data-nav-section="tour"><span>Tour</span></a></li>
                             <li><a href="features" data-nav-section="features"><span>Features</span></a></li>
+                            <li><a href="theory" data-nav-section="theory"><span>Theory</span></a></li>
                             <li><a href="testimonials" data-nav-section="testimonials"><span>Testimonials</span></a></li>
                             <li><a href="pricing" data-nav-section="pricing"><span>Pricing</span></a></li>
 		            
@@ -432,15 +433,57 @@
 	</div>
 
 	
-	<div class="fh5co-cta" style="background-image:url(images/hero.jpg)">
-		<div class="overlay"></div>
+        <div id="fh5co-theory" data-section="theory" class="fh5co-cta" >
 		<div class="container">
-			<div class="col-md-8 col-md-offset-2 text-center">
-				<h3>We love to talk about your business. Lorem ipsum dolor sit amet consectetur adipisicing. </h3>
+                <div class="row">
+                        <div class="col-md-12 section-heading text-center">
+                                <h2 class="animate-box" data-animate-effect="fadeIn">Control Charts Theory and Reference Links</h2>
+                                <!--<div class="row animate-box" data-animate-effect="fadeIn">
+                                        <div class="col-md-8 col-md-offset-2">
+                                                <h3>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</h3>
+                                        </div>
+                                </div>-->
+                        </div>
+                </div>
+
+                        <div class="col-md-8 col-md-offset-2 bg-info text-justify text-info">
+                                <h3 class="text-primary bg-primary text-center">Control Charts Theory and Reference Links</h3>
+                                <p style="color:#000" >A control chart consists of:
+<ul >
+<li >Points representing a statistic (e.g., a mean, range, proportion) of measurements of a quality characteristic in samples taken from the process at different times (i.e., the data)</li>
+<li >The mean of this statistic using all the samples is calculated (e.g., the mean of the means, mean of the ranges, mean of the proportions)</li>
+<li >A centre line is drawn at the value of the mean of the statistic</li>
+<li >The <a href="/wiki/Standard_error" title="Standard error">standard error</a> (e.g., standard deviation/sqrt(sample size) for the mean) of the statistic is also calculated using all the samples</li>
+<li >Upper and lower control limits (sometimes called "natural process limits") that indicate the threshold at which the process output is considered statistically 'unlikely' and are drawn typically at 3 standard errors from the centre line</li>
+</ul>
+<p/>
+<p style="color:#000">The chart may have other optional features, including:</p>
+<ul>
+<li>Upper and lower warning or control limits, drawn as separate lines, typically two standard errors above and below the centre line</li>
+<li>Division into zones, with the addition of rules governing frequencies of observations in each zone</li>
+<li>Annotation with events of interest, as determined by the Quality Engineer in charge of the process's quality</li></ul>
+
+
+<h1 style="color:#000">Xbar and R chart</h1>
+
+<p>Steps for calculating control limits</p>
+<ul>
+<li>Calculate sample range for each sample as: r(i) = max(i) - min(i), where i denotes sample number</li>
+<li>Division into zones, with the addition of rules governing frequencies of observations in each zone</li>
+<li>Annotation with events of interest, as determined by the Quality Engineer in charge of the process's quality</li>
+
+
+
+
+
+
+
+
+
 				<p><a href="#" class="btn btn-primary btn-outline btn-lg">Get started</a></p>
 			</div>
 		</div>
-	</div>
+        </div>
 
 	<footer id="footer" role="contentinfo">
 		<div class="container">
@@ -479,7 +522,7 @@
 	<script src="js/owl.carousel.min.js"></script>
 	<!-- Main JS (Do not remove) -->
 	<script src="js/main.js"></script>
-
+<script> $('#android_button').click(function(event){event.preventDefault();$("#android_span").toggleClass('glyphicon-chevron-down glyphicon-chevron-up');$("#android_details").toggleClass('hidden show');});$('#ios_button').click(function(event){event.preventDefault();$("#ios_span").toggleClass('glyphicon-chevron-down glyphicon-chevron-up');$("#ios_details").toggleClass('hidden show');});$('#tech_button').click(function(event){event.preventDefault();$("#tech_span").toggleClass('glyphicon-chevron-down glyphicon-chevron-up');$("#tech_details").toggleClass('hidden show');});$('#data_button').click(function(event){event.preventDefault();$("#data_span").toggleClass('glyphicon-chevron-down glyphicon-chevron-up');$("#data_details").toggleClass('hidden show');}); </script>
 	</body>
 </html>
 
