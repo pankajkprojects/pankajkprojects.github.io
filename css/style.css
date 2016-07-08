@@ -317,6 +317,7 @@ body {
 #fh5co-pricing,
 #fh5co-press,
 #fh5co-product-screenshots,
+#fh5co-product-theory,
 #fh5co-tour {
   padding: 7em 0;
 }
@@ -328,6 +329,7 @@ body {
   #fh5co-pricing,
   #fh5co-press,
   #fh5co-product-screenshots,
+  #fh5co-product-theory,
   #fh5co-tour {
     padding: 5em 0;
   }
@@ -1222,7 +1224,14 @@ body {
 #fh5co-product-screenshots {
   background: #303841;
 }
+#fh5co-product-theory {
+  background: #303841;
+}
+
 #fh5co-product-screenshots .section-heading h2 {
+  color: #fff;
+}
+#fh5co-product-theory .section-heading h2 {
   color: #fff;
 }
 
