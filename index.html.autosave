@@ -20,7 +20,7 @@
 	<meta property="og:image" content=""/>
         <meta property="og:url" content="http://www.prvprojects.com"/>
         <meta property="og:site_name" content="Process Control Charts Pro - App for Android"/>
-        <meta property="og:description" content="Using the app, user can create multiple Process Control Reports. Add multiple control charts to each report. In each report user can add multiple Quality Control Charts of various types. In each Quality Control Chart user can add multiple Samples by typing, voice."/>
+        <meta property="og:description" content="Using the app, user can create multiple quality ontrol reports. Add multiple control charts to each report. In each report user can add multiple samples by typing, voice or image recognition."/>
         <meta name="twitter:title" content="Process Control Charts Android App" />
 	<meta name="twitter:image" content="" />
         <meta name="twitter:url" content="http://www.prvprojects.com" />
@@ -245,7 +245,7 @@
                                         <h2 >Features</h2>
                                         <div class="row">
                                                 <div class="col-md-8 col-md-offset-2">
-                                                        <h3>The main features provided in our Pro App</h3>
+                                                        <h3>The main features provided in our Pro App   </h3>
                                                 </div>
                                         </div>
                                 </div>
