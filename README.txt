@@ -1,16 +1,16 @@
 
-TITLE: 
-Ranger - Onepage Template Responsive Free HTML5 template
+TITLE: Process Control Charts Pro - App for Android
+AUTHOR: Pankaj Kumar
 
-AUTHOR:
+
+CREDITS:
+
 DESIGNED & DEVELOPED by FREEHTML5.co
 
 Website: http://freehtml5.co/
 Twitter: http://twitter.com/fh5co
 Facebook: http://facebook.com/fh5co
 
-
-CREDITS:
 
 Bootstrap
 http://getbootstrap.com/

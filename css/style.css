@@ -177,6 +177,12 @@ h4 {
   padding-left: 0;
   color: #fff;
 }
+
+@media (max-width: 768px) {
+  #fh5co-header .navbar-brand {
+    font-size: 20px;
+  }
+}
 #fh5co-header .navbar-brand span {
   color: #4AE3B5;
 }
